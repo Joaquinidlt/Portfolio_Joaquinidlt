@@ -26,8 +26,15 @@ const Projects = () => (
               ))}
             </TagList>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              {/* <ExternalLinks href={youtube}>Youtube</ExternalLinks> */}
+                {visit && 
+                  <ExternalLinks href={visit}>Code</ExternalLinks>                
+                }
+                {source && 
+                  <ExternalLinks href={source}>Link</ExternalLinks>
+                }
+                {youtube && 
+                  <ExternalLinks href={youtube}>Youtube</ExternalLinks>
+                }
             </UtilityList>
           </div>
         </BlogCard>

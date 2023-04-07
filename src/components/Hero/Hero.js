@@ -14,9 +14,6 @@ const Hero = (props) => (
       <SectionText>
         Full Stack Web Developer in JavaScript
       </SectionText>
-{/*       <Button onClick={() => window.location = 'https://google.com'}>
-        Learn More
-      </Button> */}
     </LeftSection>
   </Section>
 );

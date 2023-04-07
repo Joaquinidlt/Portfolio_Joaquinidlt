@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width:96%;
+  height:200px;
+  margin-top:10px;
+  border-radius: 8px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -93,7 +95,7 @@ color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #6b3030;
-border-radius: 15px;
+border-radius: 10px;
 transition: 0.5s;
 &:hover{
   background: #801414;
