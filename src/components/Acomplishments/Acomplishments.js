@@ -1,14 +1,15 @@
+import Link from 'next/link';
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { text: 'Full Stack Developer Certificate', },
-  { text: 'React-hooks-rooter-redux-next.js Certificate', },
-  { text: 'React-Native-E-Commerce-IOS-Andoid Certificate', },
-  { text: 'Certificate Design Patterns', },  
-  { text: 'English EF SET Certificate'},
+  { text: 'Full Stack Developer Certificate', pdf: '/images/CertificadoFSD.pdf'},
+  { text: 'React-hooks-rooter-redux-next.js Certificate', pdf: '/images/React-hooks-rooter-redux-next.pdf'},
+  { text: 'React-Native-E-Commerce-IOS-Andoid Certificate', pdf: '/images/React-Native-E-Commerce-IOS-Andoid.pdf'},
+  { text: 'Certificate Design Patterns', pdf: '/images/PatronesDeDiseñoCertificate.pdf'},  
+  { text: 'English EF SET Certificate', pdf: '/images/EF-SET-Certificate.pdf'},
   { text: 'English, Spanish, Portuguese and German in process.'},
   { text: 'Business Administrator', },
 ];
@@ -18,8 +19,8 @@ const Acomplishments = () => (
     <SectionTitle>Personal Acomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
-        <Box key={index}>
-          <BoxText> {card.text} </BoxText>
+        <Box key={index} >
+          <BoxText href={card.pdf} target="_blank"> {card.text} </BoxText>          
         </Box>
       ))}
     </Boxes>

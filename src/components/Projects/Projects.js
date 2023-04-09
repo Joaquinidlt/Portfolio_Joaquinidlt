@@ -27,13 +27,13 @@ const Projects = () => (
             </TagList>
             <UtilityList>
                 {visit && 
-                  <ExternalLinks href={visit}>Code</ExternalLinks>                
+                  <ExternalLinks href={visit} target='_blank'>Code</ExternalLinks>                
                 }
                 {source && 
-                  <ExternalLinks href={source}>Link</ExternalLinks>
+                  <ExternalLinks href={source} target='_blank'>Link</ExternalLinks>
                 }
                 {youtube && 
-                  <ExternalLinks href={youtube}>Youtube</ExternalLinks>
+                  <ExternalLinks href={youtube} target='_blank'>Youtube</ExternalLinks>
                 }
             </UtilityList>
           </div>

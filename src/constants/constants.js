@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Country App',
-    description: "Using React, Node.js, Express and MongoDB I have built a Full Stack application - from start to finish. The App is called Country App, in it you can search for different countries and see the information about each of them and you can also create activities that you can do in these countries.",
+    description: "Using React, Node.js, Express and MongoDB I have built a Full Stack application - from the beginning to the end. The App is called Country App, in it you can search for different countries and see the information about each of them and you can also create activities you can do in these countries.",
       image: '/images/CountryApp.png',
       tags: ['Mongo', 'Express', 'React', 'CSS', 'Node'],
     visit: 'https://github.com/Joaquinidlt/PI-Countries/tree/master',
@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: 'E-Market',
-    description:"This E-Commerce was done with 7 developers, for the final work of the Bootcamp Full Stack. The E-Commerce contains everything an E-Commerce should have, you can look at the products, filter them, create an order and buy. On the Dashboard side, you can create new products, delete products, modify products and view customer orders.",
+    description:"This E-Commerce was made with 7 developers, for the final work of the Full Stack Bootcamp. The E-Commerce contains what every E-Commerce should have. You can see the products, filter them, create an order and buy. In the Dashboard part, you can create new products, delete products, modify products and view customer orders.",
     image: '/images/PantallaCardE-Market.png',
     tags: ['React', 'Node', 'Material UI', 'Express', 'MongoDB'],
     youtube: 'https://www.youtube.com/watch?v=sMeybf-Z5Tc',
@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     title: 'E-Market Mobile',
-    description: "I did this E-Commerce Mobile after presenting the final project of the bootcamp (E-Market). Use the same database that we created in the E-Market.",
+    description: "I made this E-Commerce Mobile using the database I made in a previous E-Commerce Web. I made this application with React-Native.",
       image: '/images/MarketMobile4.png',
       tags: ['React Native'],
     visit: 'https://github.com/Joaquinidlt/E-Commerce-Mobiles',
@@ -44,8 +44,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2018, text: 'I started to work as a manager in a company and my career as a Business Administrator ', },
-  { year: 2019, text: 'Take a Professional Stock Market and Trading Course', },
-  { year: 2020, text: 'I was recruited by a rugby club in Europe and I started working as a freelancer', },
-  { year: 2021, text: 'While playing rugby, I took the Full Stack Developer course in JavaScript', },
-  { year: 2022, text: 'I started working in my current company', },
+  { year: 2019, text: 'I continued working as a manager and in addition to my career as a business administrator, I took courses in market movements and trading.', },
+  { year: 2020, text: 'I was recruited by a rugby club in Europe and I started to work as a freelancer', },
+  { year: 2021, text: 'While playing rugby, I did a Full Stack Developer course in JavaScript', },
+  { year: 2022, text: 'I started to work for Vippinn', },
 ];

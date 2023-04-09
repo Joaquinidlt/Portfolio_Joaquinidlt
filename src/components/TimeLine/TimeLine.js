@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About</SectionTitle>
       <SectionText>
-      I trained at SoyHenry, I did an intensive 5 month bootcamp there, with more than +900 hours of study and coding. Then I started freelancing and now I'm looking for new challenges, motivated to keep learning and growing.
+        I'm a Full Stack Web Developer in JavaScript, focused in Front-end.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
