@@ -25,7 +25,7 @@ const Technologies = () =>  (
             - Next.js <br/>
             - React Native <br/>
             - Redux <br/>
-            - GraphQL <br/>
+            - GraphQL (Apollo) <br/>
             - HTML 5 <br/>
             - CSS 3 <br/>
             - SASS <br/>
