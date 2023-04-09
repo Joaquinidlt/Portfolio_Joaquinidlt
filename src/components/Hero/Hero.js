@@ -8,11 +8,11 @@ const Hero = (props) => (
   <Section row ropadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br/>
-        My Personal Portfolio
+        Joaquin Ignacio De la Torre
       </SectionTitle>
       <SectionText>
-        Full Stack Web Developer in JavaScript
+        Full Stack Web Developer in JavaScript <br/>
+        Focused in Front-end.
       </SectionText>
     </LeftSection>
   </Section>
