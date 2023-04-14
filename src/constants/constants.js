@@ -13,7 +13,7 @@ export const projects = [
     image: '/images/PantallaCardE-Market.png',
     tags: ['React', 'Node', 'Material UI', 'Express', 'MongoDB'],
     youtube: 'https://www.youtube.com/watch?v=sMeybf-Z5Tc',
-    visit: 'https://github.com/bano0224/Henry-PF',
+    visit: 'https://github.com/Joaquinidlt/e-commerce-market',
     id: 1,
   },
   {
