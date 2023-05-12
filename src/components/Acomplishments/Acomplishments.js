@@ -6,7 +6,8 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { text: 'Full Stack Developer Certificate', pdf: '/images/CertificadoFSD.pdf'},
-  { text: 'React-hooks-rooter-redux-next.js Certificate', pdf: '/images/React-hooks-rooter-redux-next.pdf'},
+  { text: 'React-TypeScript-Redux-GraphQL-Test Certificate', pdf: '/images/React-Developer-2023-Redux-Hooks-GrephQL.pdf'},
+  { text: 'React-Hooks-Rooter-Redux-Next.js Certificate', pdf: '/images/React-hooks-rooter-redux-next.pdf'},
   { text: 'React-Native-E-Commerce-IOS-Andoid Certificate', pdf: '/images/React-Native-E-Commerce-iOS-Andoid.pdf'},
   { text: 'Certificate Design Patterns', pdf: '/images/PatronesDeDiseñoCertificate.pdf'},  
   { text: 'English EF SET Certificate', pdf: '/images/EF-SET-Certificate.pdf'},
