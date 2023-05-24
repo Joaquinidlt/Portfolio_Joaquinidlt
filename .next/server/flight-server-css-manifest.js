@@ -1,0 +1,16 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "/Users/joaquindelatorre/Desktop/Proyects/Portfolio_Joaquinidlt/app/page.jsx": [
+      "/Users/joaquindelatorre/Desktop/Proyects/Portfolio_Joaquinidlt/components/Hero/Hero.module.css",
+      "/Users/joaquindelatorre/Desktop/Proyects/Portfolio_Joaquinidlt/components/Header/Header.module.css",
+      "/Users/joaquindelatorre/Desktop/Proyects/Portfolio_Joaquinidlt/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/joaquindelatorre/Desktop/Proyects/Portfolio_Joaquinidlt/app/page": [
+      "/Users/joaquindelatorre/Desktop/Proyects/Portfolio_Joaquinidlt/components/Hero/Hero.module.css",
+      "/Users/joaquindelatorre/Desktop/Proyects/Portfolio_Joaquinidlt/components/Header/Header.module.css",
+      "/Users/joaquindelatorre/Desktop/Proyects/Portfolio_Joaquinidlt/app/globals.css"
+    ]
+  }
+}

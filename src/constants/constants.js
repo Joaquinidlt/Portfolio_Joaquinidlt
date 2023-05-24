@@ -44,7 +44,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2018, text: 'I started to work as a manager in a company and my career as a Business Administrator ', },
-  { year: 2019, text: 'I continued working as a manager and in addition to my career as a business administrator, I took courses in market movements and trading.', },
+  { year: 2019, text: 'In addition to my career as a business administrator, I took courses in market movements and trading.', },
   { year: 2020, text: 'I was recruited by a rugby club in Europe and I started to work as a freelancer', },
   { year: 2021, text: 'While playing rugby, I did a Full Stack Developer course in JavaScript', },
   { year: 2022, text: 'I started to work for Vippinn', },
