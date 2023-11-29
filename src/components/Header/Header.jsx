@@ -20,6 +20,9 @@ const Header = () =>  (
       <Link href="#acomplishments" className="text-xl text-slate-50 ease-in-out hover:text-slate-300 hover:cursor-pointer">
         Acomplishments
       </Link>
+      <Link href="/InvestmentCalculator" className="text-xl text-slate-50 ease-in-out hover:text-slate-300 hover:cursor-pointer">
+        Investment Calculator
+      </Link>
     </div>
     <div className="flex justify-end items-center relative right-2">
       <Link href="https://github.com/Joaquinidlt" target='_blank' className="text-slate-50 rounded-full p-2 ease-in-out hover:bg-teal-900 hover:scale-1.2 hover:cursor-pointer">
